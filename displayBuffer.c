@@ -23,7 +23,7 @@ int copyCGram(const char c, int xPos) {
 
 
 /* Fills every byte of displayBuffer with the specified char */
-void fillDisplayBuffer(char c) {
+void fillDisplayBuffer(const char c) {
 	// TODO
 }
 
