@@ -23,7 +23,7 @@ int readFontBuffer(const char *fontFile) {
 	// Variable to keep track of the longest line per cGram, reset to 0 per cGram
 	int maxWidth = 0;
 
-	// This opens the file and handles file IO errors
+	// This opens the file m and handles file IO errors
 	if((fontFilePtr = fopen(fontFile, "r")) == NULL) {
 		return -1;
 	}

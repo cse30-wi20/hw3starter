@@ -11,14 +11,13 @@ char displayBuffer[MAXHEIGHT][MAXWIDTH];
 int copyCGram(const char c, int xPos) {
 	
 	// TODO:
-	//   - lookup the start of the specified char's cGram
-	//   - iterate over all of the cGram's symbols (when do you stop?)
-	//   - copy its symbols into displayBuffer (when do you advance
-	//     along the columns and when do you go down the rows?)
-	//   - return the column of displayBuffer where *the next* cGram
-	//     should start, accounting for the width of the current cGram
-	//     and the extra offset given by the global SPACING variable
+	//   - how can you get char c's cGram?
+	//   - how can you copy the cGram into the displayBuffer?
+	//   - is there anything to be careful about when copying?
+	//   - this should return the xPos (column) of the next cGram; 
+	//     what are the inter-cGram spacing rules?
 
+	return -1;
 }
 
 

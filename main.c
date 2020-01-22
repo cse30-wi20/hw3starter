@@ -6,7 +6,7 @@
 
 /* Prints the help message */
 void printHelp() {
-	printf("Usage:\n./banner -h\n./banner fontFile\n./banner -f fillSymbol fontFile\n");
+	printf("Usage:\n./printify -h\n./printify fontFile\n./printify -f fillSymbol fontFile\n");
 }
 
 
@@ -18,13 +18,11 @@ int main(int argc, char **argv) {
 	
 	// TODO:
 	//   - handle options using getopt
-	//   - fill the displayBuffer with the appropriate symbol
-	//   - read the given font file into the fontBuffer
-	//   - for each word:
-	//       - for each char in the word:
-	//            copy the cGram of the char into the displayBuffer
-	//       - ensure there is a ' ' space cGram *between* words
-	//   - print the displayBuffer to stdout
+	//   - how can you read in the cGrams from the font file?
+	//   - how should displayBuffer be initialized?
+	//   - how can you write the input into the displayBuffer using cGrams?
+	//   - what are the spacing rules between words and between cGrams within a word?
+	//   - how can you print the displayBuffer?
 	//   - return 0
 
 	return 0;
