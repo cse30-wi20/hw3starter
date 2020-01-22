@@ -16,9 +16,12 @@ int readFontBuffer(const char *fontFile) {
 	FILE *fontFilePtr;
 	char *fontLine;
 	char *fontBufferPtr = fontBuffer;
+	
+	// Variable to index into cGramLookup and cGramWidth as cGrams are read from the font file
 	int charIdx = 0;
+	
+	// Variable to keep track of the longest line per cGram, reset to 0 per cGram
 	int maxWidth = 0;
-	int lineWidth;
 
 	// This opens the file and handles file IO errors
 	if((fontFilePtr = fopen(fontFile, "r")) == NULL) {
