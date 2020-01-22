@@ -7,7 +7,7 @@
 # we provide a phony target clean to rm all the .o files
 #
 
-EXE = banner
+EXE = printify
 OBJS = main.o fontBuffer.o displayBuffer.o
 CFLAGS = -std=gnu99 -Wall -Wextra
 .PHONY: clean
